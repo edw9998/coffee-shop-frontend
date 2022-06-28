@@ -11,44 +11,39 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+
 function App() {
   return (
     <div className='App'>
       <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static">
             <Toolbar>
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-              >
+              <IconButton size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
                 <MenuIcon />
               </IconButton>
               <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-                Mr.X Coffee Shop
+                <h1>Mr.X's Coffee Shop and Bar</h1>
               </Typography>
-              <Button color="inherit">Login</Button>
+              <Button>Login</Button>
             </Toolbar>
           </AppBar>
         </Box>
       <header className='App-header'>
         <Typography variant="h2" component="div" sx={{ flexGrow: 1 }}>
-               Welcome to Mr.X Coffee Shop
+               Welcome to Mr.X's Coffee Shop and Bar
         </Typography>
         <img src='https://asset.kompas.com/crops/4C69KtNeLU0m6ErZGAn_DOqi3IQ=/312x108:1608x972/750x500/data/photo/2021/03/05/6042200d4e753.jpg' style={{height:500, width:1000}}/>
         <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-               Contact Info: +628168927073
+               Contact Info: (+62)87781080074
         </Typography>
         <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-               Open Hours: 10:00AM - 10:00PM
+               Working Hours: 09.00 A.M. - 09:00 P.M.
         </Typography>
         <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-               Location: Jl. Pesanggrahan No.168H, RT.2/RW.6, Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610
+               Location : Jl. Pelepah Hijau 10 Blok TS-3 No.19, RT.03/RW.15, Kecamatan Kelapa Gading, Kota Jakarta Utara, Daerah Khusus Ibukota Jakarta, 14240
         </Typography>
         <Typography variant="h3" component="div" sx={{ flexGrow: 1 }}>
-               Menu:
+               Our Menu:
         </Typography>
         <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
           {itemData.map((item) => (
@@ -63,19 +58,21 @@ function App() {
       ))}
     </ImageList>
     <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-              To Order Online Press The Button:
+              To Make Orders, Please Press The Button :
     </Typography>
     <Button variant='contained' color="primary">Order Online</Button>
     <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-              To Vist Our Social Media:
+              Our Social Media Platforms :
     </Typography>
-    <Button variant='contained' color="secondary">Visit Instagram</Button>
-    <Typography variant="h3" component="div" sx={{ flexGrow: 1 }}>
-              WEBAPP GRAND OPENING PROMOTION BUY 1 GET 1 FREE FOR LIMITED TIME ONLY!!!
-    </Typography>
+    
+    <Button variant='contained' color="secondary">
+      Visit Instagram
+    </Button>
+    
     <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-              Please Enter For Feedback:
+              Please Enter To Submit Feedback:
     </Typography>
+    
     <box
       component="form"
       sx={{
@@ -86,6 +83,7 @@ function App() {
     >
       <TextField color='primary' id="standard-basic" label="Feedback" variant="standard" />
     </box>
+    
       </header>
     </div>
 
