@@ -92,39 +92,31 @@ function App() {
 const itemData = [
   {
     img: 'https://assets-pergikuliner.com/uploads/bootsy/image/14027/medium_medium_Caramel_Macchiato__www.allfoodsrecipes.com_.jpg',
-    title: 'Macchiato',
+    title: 'Salted Caramel Macchiato(Hot / Ice)',
   },
   {
     img: 'https://awsimages.detik.net.id/community/media/visual/2019/07/01/844ad4d1-38e3-4d89-b45f-f2fb172dcacc.jpeg?w=700&q=90',
-    title: 'cappucino',
+    title: 'Cappucino(Hot)',
   },
   {
     img: 'https://i.pinimg.com/originals/0b/66/5f/0b665fc1a1fff8ef331f57315cf7740f.jpg',
-    title: 'ice blend cappucino',
+    title: 'Ice Blend Cappucino',
   },
   {
     img: 'https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG',
-    title: 'black coffee',
+    title: 'Black Coffee(Hot / Ice)',
   },
   {
     img: 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg',
-    title: 'iced latte',
-  },
-  {
-    img: 'https://www.acouplecooks.com/wp-content/uploads/2021/08/Matcha-Latte-001s.jpg',
-    title: 'matcha latte',
+    title: 'Iced Latte',
   },
   {
     img: 'https://www.baristainstitute.com/sites/default/files/styles/some_share/public/images/Tazza_Ice_Latte.jpg?itok=V-dEBL6t',
-    title: 'iced chocolate latte',
-  },
-  {
-    img: 'https://www.insidetherustickitchen.com/wp-content/uploads/2018/07/Affogat-step-4-740x1110-inside-the-rustic-kitchen.jpg',
-    title: 'affogato',
+    title: 'Iced Chocolate Latte',
   },
   {
     img: 'https://cdn.pixabay.com/photo/2019/10/21/00/16/coffee-4564897_960_720.jpg',
-    title: 'espresso',
+    title: 'Espresso / Piccolo(Hot)',
   },
 ];
 export default App;
